@@ -37,6 +37,8 @@ export default function Hero() {
 
               <a
                 href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-3 rounded-full border border-white/15 text-white hover:border-white/30 hover:bg-white/5 transition"
               >
                 Download Resume
