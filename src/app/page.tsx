@@ -1,12 +1,16 @@
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#0E0E0E] px-6">
+    <main className="min-h-screen flex items-center justify-center bg-[#0E0E0E] px-6 pt-24">
+
       <section className="max-w-3xl text-center">
 
         {/* Name */}
-        <h1 className="text-5xl md:text-6xl font-[var(--font-heading)] mb-4">
+        <div className="mb-6">
+        <h1 className="text-5xl md:text-6xl font-[var(--font-heading)]">
           Nkechi Echeta
         </h1>
+        <div className="h-[2px] w-20 bg-[#C6A75E] mx-auto mt-4"></div>
+        </div>
 
         {/* Title */}
         <p className="text-lg md:text-xl text-[#BDBDBD] mb-6">
