@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <div className="pt-32">
       <Hero />
+      </div>
       <Projects />
     </>
   );
