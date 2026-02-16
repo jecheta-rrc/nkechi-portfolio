@@ -14,7 +14,7 @@ const headingFont = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Nkechi Echeta | Software Developer",
-  description: "Software Developer building secure & scalable systems.",
+  description: "Software Developer focused on building secure and scalable cloud-driven systems.",
 };
 
 export default function RootLayout({

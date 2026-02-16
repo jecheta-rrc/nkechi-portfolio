@@ -10,13 +10,11 @@ export default function Hero() {
         </div>
 
         <p className="text-lg md:text-xl text-[#BDBDBD] mb-6">
-          Software Developer designing secure and scalable systems.
+          Software Developer focused on building secure and scalable cloud-driven systems.
         </p>
 
         <p className="text-base md:text-lg text-[#BDBDBD] leading-relaxed mb-10">
-          I design and develop modern applications across frontend, backend, and
-          cloud environments with a strong focus on structure, clarity, and
-          long-term scalability.
+          I design and develop modern applications across front-end, backend and cloud environments with strong attention to architecture, maintainability, and long-term performance.
         </p>
 
         <div className="flex justify-center gap-4">
