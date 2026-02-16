@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <main className="min-h-screen bg-[#0E0E0E] px-6 pt-24 flex items-center justify-center">
+    <main className="min-h-screen bg-[#0E0E0E] px-6 pt-32 flex items-center justify-center">
       <section className="max-w-3xl text-center">
         <div className="mb-6">
           <h1 className="text-5xl md:text-6xl font-[var(--font-heading)]">
