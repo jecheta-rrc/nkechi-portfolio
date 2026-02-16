@@ -9,7 +9,7 @@ export const projects: Project[] = [
   {
     title: "Cloud-Based Inventory System",
     description:
-      "Designed and implemented a serverless inventory management system using AWS Lambda, API Gateway, DynamoDB, and S3. Built RESTful endpoints, structured scalable NoSQL data models, and implemented CI/CD pipelines with GitHub Actions for automated deployment.",
+      "Designed and implemented a serverless inventory management system using AWS Lambda, API Gateway, DynamoDB, and S3. Built RESTful endpoints, structured scalable NoSQL data models, and implemented CI/CD pipelines with GitHub Actions for automated deployment. Focused on scalability, stateless architecture, and cost-efficient cloud design.",
     tech: ["AWS Lambda", "API Gateway", "DynamoDB", "S3", "GitHub Actions"],
     github: "https://github.com/jecheta-rrc/CI-InventoryApp"
   },
