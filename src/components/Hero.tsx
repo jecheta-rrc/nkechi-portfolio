@@ -16,9 +16,8 @@ export default function Hero() {
             </h1>
 
             <p className="mt-5 text-neutral-400 text-base md:text-lg leading-relaxed max-w-xl">
-              Software Developer focused on building secure, scalable backend
-              systems and cloud-driven applications. I design APIs, work with AWS,
-              and ship clean, maintainable code.
+              Software Developer building clean, scalable, and secure applications with modern technologies.
+              I design APIs, work with cloud services, and ship reliable software that’s easy to maintain.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
