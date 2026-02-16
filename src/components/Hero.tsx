@@ -1,12 +1,12 @@
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center px-6">
+    <section id="home" className="py-24 px-6">
       <div className="mx-auto w-full max-w-6xl pt-28 pb-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className="mx-auto w-full max-w-6xl grid lg:grid-cols-2 gap-12 items-center">
           {/* LEFT */}
           <div>
             <p className="text-sm text-neutral-400">
-              Backend • Cloud • Secure Coding
+              Software Developer • Cloud • Secure Coding
             </p>
 
             <h1 className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight">
@@ -21,7 +21,7 @@ export default function Hero() {
               and ship clean, maintainable code.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
                 href="#projects"
                 className="px-6 py-3 rounded-full bg-yellow-400 text-black font-medium hover:bg-yellow-300 transition"
