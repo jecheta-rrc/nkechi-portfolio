@@ -98,7 +98,7 @@ export default function Hero() {
                 <div className="rounded-2xl border border-white/10 bg-black/40 p-4">
                   <p className="text-sm text-neutral-400">Tech Stack</p>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    {["TypeScript", "Node.js", "AWS", "Python", "SQL"].map((t) => (
+                    {["TypeScript", "Node.js", "Next.js", "AWS", "Python", "SQL"].map((t) => (
                       <span
                         key={t}
                         className="text-xs px-3 py-1 rounded-full border border-white/10 text-neutral-300"
