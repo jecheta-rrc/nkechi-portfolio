@@ -1,27 +1,69 @@
 @import "tailwindcss";
 
-/* Root color variables */
-:root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-}
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-/* Base body styling */
+/* Make the whole app a true full black canvas */
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
 }
 
-/* Smooth scrolling for single-page navigation */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: #ededed;
+  margin: 0;
+}
+
+/* Optional: nicer text rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Premium background effects (no external images needed) --- */
+
+/* Grain overlay using inline SVG turbulence (no noise.png required) */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.08;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+}
+
+/* Spotlight glows */
+.spotlight {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.spotlight::before {
+  content: "";
+  position: absolute;
+  top: -240px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 980px;
+  height: 720px;
+  background: rgba(250, 204, 21, 0.14); /* yellow glow */
+  filter: blur(160px);
+  border-radius: 9999px;
+}
+
+.spotlight::after {
+  content: "";
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  width: 520px;
+  height: 520px;
+  background: rgba(255, 255, 255, 0.06);
+  filter: blur(170px);
+  border-radius: 9999px;
 }

@@ -4,51 +4,104 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white">
+    <main className="relative min-h-screen text-white grain">
+      {/* Premium background */}
+      <div className="spotlight" />
 
-  <Navbar />
+      {/* Content layer */}
+      <div className="relative z-10">
+        <Navbar />
 
-  {/* Hero */}
-  <section id="top" className="min-h-screen flex items-center justify-center px-6">
-    <Hero />
-  </section>
+        {/* HERO */}
+        <Hero />
 
-  {/* Projects */}
-  <section id="projects" className="py-28 px-6">
-    <div className="max-w-6xl mx-auto">
-      <Projects />
-    </div>
-  </section>
+        {/* PROJECTS */}
+        <Projects />
 
-  {/* About */}
-  <section id="about" className="py-28 px-6">
-    <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-semibold mb-6">About</h2>
-      <p className="text-neutral-400 leading-relaxed">
-        I’m a Software Developer focused on building secure and scalable systems.
-        I enjoy backend engineering, cloud architecture, and writing clean,
-        maintainable code that lasts.
-      </p>
-    </div>
-  </section>
+        {/* CERTIFICATIONS */}
+        <section id="certifications" className="py-24 px-6">
+          <div className="mx-auto w-full max-w-5xl">
+           <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+              Certifications & Achievements
+               <div className="w-16 h-1 bg-yellow-400 mt-4 mb-10 rounded-full" />
+            </h2>
 
-  {/* Contact */}
-  <section id="contact" className="py-28 px-6">
-    <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-semibold mb-6">Contact</h2>
-      <p className="text-neutral-400">
-        Email: <span className="text-white">nkechiecheta06@gmail.com</span>
-      </p>
-    </div>
-  </section>
+            <div className="grid gap-6 md:grid-cols-2">
 
-  {/* Footer */}
-  <footer className="py-12 px-6 border-t border-neutral-800">
-    <div className="max-w-6xl mx-auto text-center text-neutral-500">
-      <p>© {new Date().getFullYear()} Nkechi Echeta. All rights reserved.</p>
-    </div>
-  </footer>
+              <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-400 transition">
+                <h3 className="text-xl font-semibold mb-2">AWS Academy Cloud Foundations</h3>
+                <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+                    Completed foundational cloud training covering AWS core services,
+                    security, architecture, and deployment principles.
+                  </p>
+              </div>
 
-</main>
+              <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
+                  <h3 className="text-xl font-semibold mb-2">Introduction to MongoDB </h3>
+                  <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+                    Gained practical knowledge of NoSQL data modeling, CRUD operations,
+                    indexing, and performance optimization.
+                  </p>
+              </div>
+
+              <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
+                <h3 className="text-xl font-semibold mb-2">WIPO Summer School on Intellectual Property</h3>
+                <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+                  Completed international program focused on intellectual property,
+                  innovation, and global technology governance.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
+                <h3 className="text-xl font-semibold mb-2">4.062 GPA – Application Development & Delivery</h3>
+                  <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+                    Maintaining academic excellence while completing full-stack,
+                    backend, cloud, and secure coding coursework.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ABOUT */}
+        <section id="about" className="py-24 px-6">
+          <div className="mx-auto w-full max-w-5xl">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">About</h2>
+            <div className="w-16 h-1 bg-yellow-400 mt-4 mb-10 rounded-full" />
+
+            <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+              I’m a Software Development student at Red River College Polytechnic
+              specializing in frontend development, backend development, cloud infrastructure, and secure
+              coding. I enjoy designing APIs, working with AWS services, and building
+              systems that are reliable, scalable, and maintainable.
+            </p>
+          </div>
+        </section>
+
+        {/* CONTACT */}
+        <section id="contact" className="py-24 px-6">
+          <div className="mx-auto w-full max-w-5xl">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Contact</h2>
+            <div className="w-16 h-1 bg-yellow-400 mt-4 mb-10 rounded-full" />
+
+            <p className="text-neutral-400 text-lg">
+              Email:
+             <a
+                className="text-yellow-400 ml-2 hover:underline"
+                href="mailto:nkechiecheta06@gmail.com"
+           > 
+                nkechiecheta06@gmail.com
+              </a>
+            </p>
+          </div>
+        </section>
+
+
+        {/* FOOTER */}
+        <footer className="py-10 text-center text-sm text-neutral-500 border-t border-neutral-800">
+          © {new Date().getFullYear()} Nkechi Echeta. All rights reserved.
+        </footer>
+      </div>
+    </main>
   );
 }
