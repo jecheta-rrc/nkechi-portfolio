@@ -79,23 +79,36 @@ export default function Home() {
         </section>
 
         {/* CONTACT */}
-        <section id="contact" className="py-24 px-6">
+        <section id="contact" className="scroll-mt-28 py-32 px-6">
           <div className="mx-auto w-full max-w-5xl">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Contact</h2>
             <div className="w-16 h-1 bg-yellow-400 mt-4 mb-10 rounded-full" />
 
-            <p className="text-neutral-400 text-lg">
-              Email:
-             <a
-                className="text-yellow-400 ml-2 hover:underline"
-                href="mailto:nkechiecheta06@gmail.com"
-           > 
-                nkechiecheta06@gmail.com
-              </a>
-            </p>
-          </div>
-        </section>
+            <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-8 backdrop-blur-xl">
+              <p className="text-neutral-300 text-lg leading-relaxed">
+                Want to collaborate, hire me for an internship, or discuss a project?
+                Send me a message and I’ll reply quickly.
+              </p>
 
+          <div className="mt-6 flex flex-wrap items-center gap-4">
+            <a
+                href="mailto:nkechiecehta06@gmail.com"
+                className="px-6 py-3 rounded-full bg-yellow-400 text-black font-medium hover:bg-yellow-300 transition"
+          >
+            Email Me
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            className="px-6 py-3 rounded-full border border-white/15 text-white hover:bg-white/5 transition"
+         >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
         {/* FOOTER */}
         <footer className="py-10 text-center text-sm text-neutral-500 border-t border-neutral-800">

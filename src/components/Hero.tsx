@@ -75,8 +75,8 @@ export default function Hero() {
 
           {/* RIGHT */}
           <div className="relative">
-            {/* Glow */}
-            <div className="absolute -inset-6 bg-yellow-400/10 blur-3xl rounded-[40px]" />
+
+          <div className="absolute -inset-6 bg-yellow-400/10 blur-3xl rounded-[40px]" />
 
             {/* Card */}
             <div className="relative rounded-3xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl">

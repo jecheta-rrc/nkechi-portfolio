@@ -67,3 +67,25 @@ body {
   filter: blur(170px);
   border-radius: 9999px;
 }
+
+/* FORCE pure black background (override everything) */
+html, body {
+  background: #000 !important;
+}
+
+/* Kill any “spotlight” pseudo background overlays */
+body::before,
+body::after,
+.spotlight::before,
+.spotlight::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* If you used a class like this anywhere */
+.bg-spotlight,
+.bg-glow,
+.bg-gradient {
+  background: #000 !important;
+  background-image: none !important;
+}
