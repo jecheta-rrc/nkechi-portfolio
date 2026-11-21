@@ -53,10 +53,10 @@ export default function Home() {
               </div>
 
               <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
-                <h3 className="text-xl font-semibold mb-2">4.062 GPA – Application Development & Delivery</h3>
+                <h3 className="text-xl font-semibold mb-2">Canada Life Award · 2026</h3>
                   <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
-                    Maintaining academic excellence while completing full-stack,
-                    backend, cloud, and secure coding coursework.
+                    Received the Canada Life Award through RRC Polytech’s Applied Computer
+                    Education Awards.
                   </p>
               </div>
             </div>
@@ -70,10 +70,10 @@ export default function Home() {
             <div className="w-16 h-1 bg-yellow-400 mt-4 mb-10 rounded-full" />
 
             <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
-              I’m a Software Development student at Red River College Polytechnic
-              specializing in frontend development, backend development, cloud infrastructure, and secure
-              coding. I enjoy designing APIs, working with AWS services, and building
-              systems that are reliable, scalable, and maintainable.
+              I’m a software developer and a 2026 graduate of RRC Polytech’s Application
+              Development and Delivery diploma program. I build full-stack applications
+              with React, Next.js, TypeScript, Node.js, and PostgreSQL. I also work
+              with AWS and enjoy designing and testing APIs.
             </p>
           </div>
         </section>
@@ -86,20 +86,20 @@ export default function Home() {
 
             <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-8 backdrop-blur-xl">
               <p className="text-neutral-300 text-lg leading-relaxed">
-                Want to collaborate, hire me for an internship, or discuss a project?
-                Send me a message and I’ll reply quickly.
+                I’m open to software development roles and project collaborations.
+                Get in touch by email or LinkedIn.
               </p>
 
           <div className="mt-6 flex flex-wrap items-center gap-4">
             <a
-                href="mailto:nkechiecehta06@gmail.com"
+                href="mailto:nkechiecheta06@gmail.com"
                 className="px-6 py-3 rounded-full bg-yellow-400 text-black font-medium hover:bg-yellow-300 transition"
           >
             Email Me
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/nkechiecheta/"
             target="_blank"
             className="px-6 py-3 rounded-full border border-white/15 text-white hover:bg-white/5 transition"
          >
