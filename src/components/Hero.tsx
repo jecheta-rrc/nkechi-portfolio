@@ -1,143 +1,107 @@
+import { projects } from "@/data/projects";
+
 export default function Hero() {
+  const featuredProject = projects[0];
+
   return (
-    <section id="home" className="py-24 px-6">
-      <div className="mx-auto w-full max-w-6xl pt-28 pb-16">
-        <div className="mx-auto w-full max-w-6xl grid lg:grid-cols-2 gap-12 items-center">
-          {/* LEFT */}
-          <div>
-            <p className="text-sm text-neutral-400">
-              Software Developer • Cloud • Secure Coding
-            </p>
+    <section id="home" className="relative overflow-hidden px-6 pb-16 pt-32 sm:pt-40 lg:pb-24 lg:pt-44">
+      <div className="mx-auto grid w-full max-w-6xl items-center gap-12 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
+        <div>
+          <p className="text-sm font-semibold tracking-[0.14em] text-yellow-300 uppercase">
+            Software developer · Winnipeg
+          </p>
 
-            <h1 className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight">
-              Hi, I&apos;m{" "}
-              <span className="text-yellow-400">Nkechi Echeta</span>
-              <span className="text-white/80">.</span>
-            </h1>
+          <h1 className="mt-5 text-[clamp(3.5rem,9vw,7rem)] leading-[0.92] tracking-[-0.065em]">
+            <span className="block font-light">Nkechi</span>
+            <span className="block font-bold text-yellow-400">Echeta<span aria-hidden="true">.</span></span>
+          </h1>
 
-            <p className="mt-5 text-neutral-400 text-base md:text-lg leading-relaxed max-w-xl">
-              Software Developer building clean, scalable, and secure applications with modern technologies.
-              I design APIs, work with cloud services, and ship reliable software that’s easy to maintain.
-            </p>
+          <p className="mt-6 max-w-lg text-lg leading-relaxed text-neutral-300">
+            I build full-stack applications, from the screens people use to the
+            APIs and databases behind them.
+          </p>
 
-            <div className="mt-10 flex flex-wrap items-center gap-4">
-              <a
-                href="#projects"
-                className="px-6 py-3 rounded-full bg-yellow-400 text-black font-medium hover:bg-yellow-300 transition"
-              >
-                View Projects
-              </a>
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <a
+              href="#projects"
+              className="px-6 py-3 rounded-full bg-yellow-400 text-black font-medium hover:bg-yellow-300 transition"
+            >
+              View Projects
+            </a>
 
-              <a
-                href="#contact"
-                className="px-6 py-3 rounded-full border border-white/15 text-white hover:border-white/30 hover:bg-white/5 transition"
-              >
-                Contact Me
-              </a>
+            <a
+              href="#contact"
+              className="px-6 py-3 rounded-full border border-white/15 text-white hover:border-white/30 hover:bg-white/5 transition"
+            >
+              Contact Me
+            </a>
 
-              <a
-                href="/Nkechi%20Echeta%20SD%20Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 rounded-full border border-white/15 text-white hover:border-white/30 hover:bg-white/5 transition"
-              >
-                Download Resume
-              </a>
-            </div>
-
-            {/* Social Icons */}
-            <div className="mt-8 flex items-center gap-4 text-neutral-300">
-              <a
-                href="https://github.com/jecheta-rrc"
-                target="_blank"
-                className="hover:text-yellow-400 transition"
-                aria-label="GitHub"
-              >
-                <IconGithub />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/nkechiecheta/"
-                target="_blank"
-                className="hover:text-yellow-400 transition"
-                aria-label="LinkedIn"
-              >
-                <IconLinkedIn />
-              </a>
-              <a
-                href="mailto:nkechiecheta06@gmail.com"
-                className="hover:text-yellow-400 transition"
-                aria-label="Email"
-              >
-                <IconMail />
-              </a>
-            </div>
+            <a
+              href="/Nkechi%20Echeta%20SD%20Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-full border border-white/15 text-white hover:border-white/30 hover:bg-white/5 transition"
+            >
+              Download Resume
+            </a>
           </div>
 
-          {/* RIGHT */}
-          <div className="relative">
-
-          <div className="absolute -inset-6 bg-yellow-400/10 blur-3xl rounded-[40px]" />
-
-            {/* Card */}
-            <div className="relative rounded-3xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl">
-              <div className="flex items-center justify-between">
-                <div className="text-sm text-neutral-400">Currently building</div>
-                <div className="flex gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-white/25" />
-                  <span className="w-2.5 h-2.5 rounded-full bg-white/25" />
-                  <span className="w-2.5 h-2.5 rounded-full bg-yellow-400/70" />
-                </div>
-              </div>
-
-              <div className="mt-5 space-y-3">
-                <div className="rounded-2xl border border-white/10 bg-black/40 p-4">
-                  <p className="text-sm text-neutral-400">Focus</p>
-                  <p className="mt-1 font-semibold">
-                    APIs • Cloud • Security
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-black/40 p-4">
-                  <p className="text-sm text-neutral-400">Tech Stack</p>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {["TypeScript", "Node.js", "Next.js", "AWS", "Python", "SQL"].map((t) => (
-                      <span
-                        key={t}
-                        className="text-xs px-3 py-1 rounded-full border border-white/10 text-neutral-300"
-                      >
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-black/40 p-4">
-                  <p className="text-sm text-neutral-400">What you get</p>
-                  <ul className="mt-2 space-y-2 text-sm text-neutral-300">
-                    <li className="flex gap-2">
-                      <span className="text-yellow-400">✓</span> Clean, readable code
-                    </li>
-                    <li className="flex gap-2">
-                      <span className="text-yellow-400">✓</span> Strong security mindset
-                    </li>
-                    <li className="flex gap-2">
-                      <span className="text-yellow-400">✓</span> Reliable delivery & testing
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Subtle grid lines */}
-              <div className="pointer-events-none absolute inset-0 rounded-3xl opacity-[0.07]"
-                style={{
-                  backgroundImage:
-                    "linear-gradient(to right, rgba(255,255,255,0.35) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.35) 1px, transparent 1px)",
-                  backgroundSize: "48px 48px",
-                }}
-              />
-            </div>
+          {/* Social Icons */}
+          <div className="mt-8 flex items-center gap-4 text-neutral-300">
+            <a
+              href="https://github.com/jecheta-rrc"
+              target="_blank"
+              className="hover:text-yellow-400 transition"
+              aria-label="GitHub"
+            >
+              <IconGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nkechiecheta/"
+              target="_blank"
+              className="hover:text-yellow-400 transition"
+              aria-label="LinkedIn"
+            >
+              <IconLinkedIn />
+            </a>
+            <a
+              href="mailto:nkechiecheta06@gmail.com"
+              className="hover:text-yellow-400 transition"
+              aria-label="Email"
+            >
+              <IconMail />
+            </a>
           </div>
         </div>
+
+        <article className="relative isolate overflow-hidden rounded-[2rem] border border-yellow-200/20 bg-[#151107] shadow-[0_20px_90px_-45px_#facc15]">
+          <div
+            aria-hidden="true"
+            className="relative h-40 overflow-hidden border-b border-yellow-200/15 bg-[radial-gradient(ellipse_at_72%_35%,#725318_0%,#352707_45%,#161105_85%)] sm:h-52"
+          >
+            <div className="absolute inset-0 opacity-25 [background-image:linear-gradient(to_right,#d8a94a66_1px,transparent_1px),linear-gradient(to_bottom,#d8a94a66_1px,transparent_1px)] [background-size:28px_28px]" />
+            <div className="absolute top-1/2 left-[70%] size-32 -translate-1/2 rounded-full border border-yellow-100/70 bg-yellow-400/10 shadow-[0_0_35px_#e8ab3966] sm:size-40" />
+            <div className="absolute top-1/2 left-[70%] size-52 -translate-1/2 rounded-full border border-yellow-100/35 sm:size-64" />
+            <div className="absolute top-1/2 left-[70%] size-72 -translate-1/2 rounded-full border border-yellow-100/20 sm:size-88" />
+          </div>
+          <div className="p-6 sm:p-8">
+            <p className="text-sm font-semibold text-yellow-300">RRC Polytech industry project</p>
+            <h2 className="mt-2 text-3xl leading-tight font-bold tracking-tight sm:text-4xl">
+              {featuredProject.title}
+            </h2>
+            <p className="mt-3 text-neutral-300">
+              I improved document uploads and demonstrated the Citizens Check-In and
+              Volunteer workflows to the client.
+            </p>
+            <ul className="mt-5 flex flex-wrap gap-2 text-sm text-yellow-100" aria-label="Project technologies">
+              {featuredProject.tech.slice(0, 3).map((technology) => (
+                <li key={technology} className="rounded-full border border-yellow-200/20 px-3 py-1">
+                  {technology}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </article>
       </div>
     </section>
   );
