@@ -36,7 +36,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/Nkechi%20Echeta%20SD%20Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-full border border-white/15 text-white hover:border-white/30 hover:bg-white/5 transition"
@@ -48,7 +48,7 @@ export default function Hero() {
             {/* Social Icons */}
             <div className="mt-8 flex items-center gap-4 text-neutral-300">
               <a
-                href="https://github.com/"
+                href="https://github.com/jecheta-rrc"
                 target="_blank"
                 className="hover:text-yellow-400 transition"
                 aria-label="GitHub"
@@ -56,7 +56,7 @@ export default function Hero() {
                 <IconGithub />
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/nkechiecheta/"
                 target="_blank"
                 className="hover:text-yellow-400 transition"
                 aria-label="LinkedIn"
