@@ -75,7 +75,7 @@ export default function Projects() {
             <motion.div
               role="dialog"
               aria-modal="true"
-              className="relative w-full max-w-2xl rounded-3xl border border-white/10 bg-black/90 p-6 md:p-8 shadow-2xl backdrop-blur-xl"
+              className="relative max-h-[calc(100dvh-2rem)] w-full max-w-2xl overflow-y-auto rounded-3xl border border-white/10 bg-black/90 p-6 md:p-8 shadow-2xl backdrop-blur-xl"
               initial={{ y: 20, opacity: 0, scale: 0.98 }}
               animate={{ y: 0, opacity: 1, scale: 1 }}
               exit={{ y: 20, opacity: 0, scale: 0.98 }}
@@ -129,14 +129,16 @@ export default function Projects() {
               </div>
 
               <div className="mt-8 flex flex-wrap gap-3">
-                <a
-                  href={active.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-full bg-yellow-400 px-5 py-2 text-black font-medium hover:bg-yellow-300 transition"
-                >
-                  View on GitHub →
-                </a>
+                {active.githubUrl && (
+                  <a
+                    href={active.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full bg-yellow-400 px-5 py-2 text-black font-medium hover:bg-yellow-300 transition"
+                  >
+                    View on GitHub →
+                  </a>
+                )}
 
                 {active.liveUrl && (
                   <a
