@@ -49,6 +49,7 @@ export const projects: Project[] = [
     longDescription:
       "My team built and presented Shepherd for the Healthcare 2 challenge at the 2026 AccelR8 Prairie AI Hackathon.",
     tech: ["Generative AI", "Document summarization"],
+    githubUrl: "https://github.com/gbevwunu/Shepherd",
     highlights: [
       "Collaborated to build and present a working prototype in one day.",
     ],
@@ -73,6 +74,7 @@ export const projects: Project[] = [
     longDescription:
       "Built a serverless inventory system using AWS Lambda, API Gateway, DynamoDB, and S3. Designed scalable NoSQL data models, implemented REST endpoints, tested with Postman, and automated deployments using GitHub Actions.",
     tech: ["AWS Lambda", "API Gateway", "DynamoDB", "S3", "GitHub Actions"],
+    githubUrl: "https://github.com/jecheta-rrc/CI-InventoryApp",
     highlights: [
       "Serverless architecture with DynamoDB modeling",
       "REST API endpoints tested with Postman",
@@ -86,6 +88,7 @@ export const projects: Project[] = [
     longDescription:
       "Built a modular Express API with TypeScript, role-based access control, JWT authentication, documentation, and automated tests. Designed endpoints for inventory and orders with secure patterns and clean architecture.",
     tech: ["Node.js", "Express", "TypeScript", "JWT", "Jest", "Firebase"],
+    githubUrl: "https://github.com/jecheta-rrc/Backend-Project",
     highlights: [
       "JWT auth + role-based authorization",
       "Automated testing with Jest",
