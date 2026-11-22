@@ -56,6 +56,20 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: "Pumpwatch",
+    description:
+      "A browser-based tool that analyzes hydraulic pump sensor data for signs of internal leakage.",
+    longDescription:
+      "I built Pumpwatch to help users review hydraulic pump readings and identify cycles that warrant a closer look. The app analyzes flow, motor power, and pressure from a CSV in the browser, explains what contributed to each flag, and lets users export the results.",
+    tech: ["JavaScript", "Python", "scikit-learn", "Logistic regression"],
+    liveUrl: "https://pumpwatch-eta.vercel.app/",
+    highlights: [
+      "Imports and validates sensor CSVs locally in the browser.",
+      "Shows the sensor that contributed most to each flag and exports cycle results.",
+      "Evaluated the classifier on 360 held-out cycles from the UCI hydraulic test rig.",
+    ],
+  },
+  {
     title: "Shepherd",
     description:
       "A hackathon prototype that turns hospital discharge summaries into plain-language explanations for patients and concise briefs for clinicians.",

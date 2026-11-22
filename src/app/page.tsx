@@ -79,6 +79,19 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="community" className="py-24 px-6">
+          <div className="mx-auto w-full max-w-5xl">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+              Community Involvement
+            </h2>
+            <div className="w-16 h-1 bg-yellow-400 mt-4 mb-10 rounded-full" />
+            <div className="p-6 rounded-2xl border border-neutral-800">
+              <h3 className="text-xl font-semibold">Harvest Manitoba</h3>
+              <p className="mt-2 text-neutral-400">Volunteer</p>
+            </div>
+          </div>
+        </section>
+
         {/* CONTACT */}
         <section id="contact" className="scroll-mt-28 py-32 px-6">
           <div className="mx-auto w-full max-w-5xl">
