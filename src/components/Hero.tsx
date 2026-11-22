@@ -75,7 +75,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <article className="relative isolate overflow-hidden rounded-[2rem] border border-yellow-200/20 bg-[#151107] shadow-[0_20px_90px_-45px_#facc15]">
+        <article className="relative isolate overflow-hidden rounded-[2rem] border border-yellow-200/20 bg-[#151107] shadow-[0_14px_45px_-22px_#facc1540]">
           <div
             aria-hidden="true"
             className="relative h-40 overflow-hidden border-b border-yellow-200/15 bg-[radial-gradient(ellipse_at_72%_35%,#725318_0%,#352707_45%,#161105_85%)] sm:h-52"
