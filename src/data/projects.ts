@@ -60,7 +60,7 @@ export const projects: Project[] = [
     description:
       "A full-stack team application for browsing events, managing event services, and collecting RSVPs.",
     longDescription:
-      "I contributed across most of the application on Team Ace Stack, working on the React frontend, the Express API, and the Prisma data layer. I helped integrate Clerk authentication across the frontend and backend, connect the services interface to protected endpoints, and debug issues across the stack. One fix corrected how the frontend mapped the API response so newly created services appeared in the list.",
+      "I built and integrated features across the React frontend, Express API, and Prisma data layer as part of Team Ace Stack. I helped integrate Clerk authentication across the frontend and backend, connect the services interface to protected endpoints, and debug issues across the stack. One fix corrected how the frontend mapped the API response so newly created services appeared in the list.",
     tech: ["React", "Express", "PostgreSQL", "Prisma", "Clerk"],
     githubUrl: "https://github.com/Cusiokhale/Event-Management",
     highlights: [
