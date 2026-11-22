@@ -34,6 +34,7 @@ export const projects: Project[] = [
     longDescription:
       "I built ShelfSignal to help retailers turn weekly sales and stock counts into an order they can review before buying. The app compares a moving average with linear regression on historical sales, then uses the selected model to estimate demand. Retailers can adjust stock on hand, incoming deliveries, and extra coverage before exporting a reorder list.",
     tech: ["JavaScript", "Linear regression", "CSV", "Vercel"],
+    githubUrl: "https://github.com/jecheta-rrc/shelf-signal",
     liveUrl: "https://shelf-signal-zeta.vercel.app/",
     highlights: [
       "Flags products that may run out before the supplier can deliver.",
