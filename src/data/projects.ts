@@ -99,6 +99,7 @@ export const projects: Project[] = [
     longDescription:
       "Implemented an OOP banking simulation using Python with design patterns (Observer, Strategy), event-driven logic, and a PySide6 GUI. Focused on clean architecture and maintainable code.",
     tech: ["Python", "OOP", "Observer Pattern", "Strategy Pattern", "PySide6"],
+    githubUrl: "https://github.com/jecheta-rrc/Intermediate-Software-Development-Project",
     highlights: [
       "Design patterns: Observer + Strategy",
       "Event-driven logic",
