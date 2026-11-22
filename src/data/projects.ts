@@ -100,15 +100,15 @@ export const projects: Project[] = [
   {
     title: "Automated Teller System",
     description:
-      "Built an object-oriented banking app demonstrating design patterns and GUI components.",
+      "A Python desktop banking simulation for looking up clients, filtering accounts, and processing deposits and withdrawals.",
     longDescription:
-      "Implemented an OOP banking simulation using Python with design patterns (Observer, Strategy), event-driven logic, and a PySide6 GUI. Focused on clean architecture and maintainable code.",
-    tech: ["Python", "OOP", "Observer Pattern", "Strategy Pattern", "PySide6"],
+      "I built a PySide6 interface where users can look up a client, filter their accounts, and apply a transaction. PySide6 signals and slots refresh the account table after a balance changes. I used the Strategy pattern to keep service-charge calculations separate from account classes and the Observer pattern to notify clients about significant account activity.",
+    tech: ["Python", "PySide6", "Observer Pattern", "Strategy Pattern", "Sphinx", "PyInstaller"],
     githubUrl: "https://github.com/jecheta-rrc/Intermediate-Software-Development-Project",
     highlights: [
-      "Design patterns: Observer + Strategy",
-      "Event-driven logic",
-      "Desktop GUI with PySide6",
+      "Added client lookup and filters for account number, balance, date created, and account type.",
+      "Validated transaction inputs and refreshed account balances after successful transactions.",
+      "Generated HTML documentation with Sphinx and packaged the desktop app with PyInstaller and Inno Setup.",
     ],
   },
 ];
