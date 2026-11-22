@@ -42,6 +42,20 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: "Kwuo Igbo",
+    description:
+      "An interactive web app for practising everyday Igbo through illustrated lessons and conversations.",
+    longDescription:
+      "I built and deployed Kwuo Igbo to help learners practise everyday vocabulary and conversations at their own pace. The app combines illustrated chapters, quizzes, phrase recall, and an interactive family conversation. I redesigned dialogue review to show one bilingual phrase at a time and added progress tracking in the browser.",
+    tech: ["Next.js", "React", "TypeScript", "JavaScript", "Vercel"],
+    liveUrl: "https://kwuo-igbo.vercel.app/",
+    highlights: [
+      "Built 50 illustrated chapters with vocabulary review and quizzes.",
+      "Added bilingual dialogue review and phrase recall for everyday situations.",
+      "Created an interactive family conversation with feedback on responses.",
+    ],
+  },
+  {
     title: "Shepherd",
     description:
       "A generative AI prototype that turns hospital discharge summaries into plain-language explanations for patients and concise highlights for clinicians.",
