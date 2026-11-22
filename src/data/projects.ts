@@ -85,15 +85,16 @@ export const projects: Project[] = [
   {
     title: "Backend Inventory & Orders API",
     description:
-      "Developed a secure REST API supporting inventory and order management with authentication.",
+      "A TypeScript REST API for managing food inventory, categories, and suppliers, with scheduled low-stock checks.",
     longDescription:
-      "Built a modular Express API with TypeScript, role-based access control, JWT authentication, documentation, and automated tests. Designed endpoints for inventory and orders with secure patterns and clean architecture.",
-    tech: ["Node.js", "Express", "TypeScript", "JWT", "Jest", "Firebase"],
+      "I built an Express API with endpoints for food items, categories, and suppliers. Categories and suppliers were stored in Firestore, while food items used an in-memory store for the course milestone. I used Firebase ID tokens to authenticate requests, restricted write operations to administrators, and scheduled low-stock checks with node-cron.",
+    tech: ["Node.js", "Express", "TypeScript", "Firebase", "Firestore", "Swagger", "Jest", "Supertest", "node-cron"],
     githubUrl: "https://github.com/jecheta-rrc/Backend-Project",
     highlights: [
-      "JWT auth + role-based authorization",
-      "Automated testing with Jest",
-      "Modular Express architecture",
+      "Implemented Firestore-backed create, read, update, and delete operations for categories and suppliers.",
+      "Protected write routes with Firebase authentication and role-based authorization.",
+      "Scheduled a background job to identify inventory below its configured stock threshold.",
+      "Documented endpoints with Swagger/OpenAPI and tested routes and job behavior with Jest and Supertest.",
     ],
   },
   {
