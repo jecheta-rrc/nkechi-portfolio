@@ -64,21 +64,22 @@ export default function Home() {
         </section>
 
         {/* ABOUT */}
-        <section id="about" className="py-24 px-6">
+        <section id="about" className="pt-24 pb-12 px-6">
           <div className="mx-auto w-full max-w-5xl">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">About</h2>
             <div className="w-16 h-1 bg-yellow-400 mt-4 mb-10 rounded-full" />
 
             <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
-              I’m a software developer and a 2026 graduate of RRC Polytech’s Application
-              Development and Delivery diploma program. I build full-stack applications
-              with React, Next.js, TypeScript, Node.js, and PostgreSQL. I also work
-              with AWS and enjoy designing and testing APIs.
+              I’m a Winnipeg-based software developer and a 2026 graduate of RRC Polytech’s
+              Application Development and Delivery program. I enjoy building and testing APIs
+              and tracing bugs across the front end and back end. During my industry project
+              with MANFF, I also facilitated team meetings and demonstrated key workflows to
+              the client.
             </p>
           </div>
         </section>
 
-        <section id="community" className="py-24 px-6">
+        <section id="community" className="pt-12 pb-24 px-6">
           <div className="mx-auto w-full max-w-5xl">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
               Community Involvement
