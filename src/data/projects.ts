@@ -14,13 +14,14 @@ export const projects: Project[] = [
   {
     title: "Emergency Management System",
     description:
-      "RRC Polytech industry project for MANFF supporting citizen check-in and volunteer workflows.",
+      "RRC Polytech industry project supporting emergency reporting, citizen check-in, and volunteer coordination for First Nations communities.",
     longDescription:
-      "I improved the experience of uploading files for emergency reports and volunteer documents, facilitated team meetings, and demonstrated the Citizens Check-In and Volunteer flows to the client.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI"],
+      "As a developer on the team, I improved document uploads for emergency reports and volunteer onboarding, contributed to the technical manual, and facilitated team meetings. I demonstrated the Citizens Check-In and Volunteer workflows to the client.",
+    tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI"],
     highlights: [
-      "Updated file selection controls and added visible upload confirmation.",
-      "Improved component documentation and supported client demos.",
+      "Standardized file selection controls for emergency reports and volunteer documents, including criminal record checks and driver’s licences.",
+      "Added visible confirmation when a file uploaded successfully.",
+      "Improved TypeScript component documentation and contributed to the developer setup guide.",
     ],
   },
   {
