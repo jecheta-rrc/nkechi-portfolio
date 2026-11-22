@@ -90,9 +90,10 @@ export default function Hero() {
               {featuredProject.title}
             </h2>
             <p className="mt-3 text-neutral-300">
-              I built clearer file selection and upload confirmation for emergency
-              reports and volunteer documents. I facilitated team meetings and
-              presented the Citizens Check-In and Volunteer workflows to MANFF.
+              As a primary developer, I built and refined full-stack features
+              for emergency reporting and volunteer onboarding. I fixed bugs,
+              wrote developer documentation, and demonstrated the Citizens
+              Check-In and Volunteer workflows to MANFF.
             </p>
             <ul className="mt-5 flex flex-wrap gap-2 text-sm text-yellow-100" aria-label="Project technologies">
               {featuredProject.tech.slice(0, 3).map((technology) => (
