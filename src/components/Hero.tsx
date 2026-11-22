@@ -38,7 +38,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/Nkechi%20Echeta%20SD%20Resume.pdf"
+              href="/Nkechi-Echeta-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full border border-white/15 text-white hover:border-white/30 hover:bg-white/5 transition"

@@ -71,7 +71,8 @@ export default function Home() {
 
             <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
               I’m a Winnipeg-based software developer and a 2026 graduate of RRC Polytech’s
-              Application Development and Delivery program. I enjoy building and testing APIs
+              Application Development and Delivery program, where I earned a GPA of 4.13 out of 4.5.
+              I enjoy building and testing APIs
               and tracing bugs across the front end and back end. During my industry project
               with MANFF, I also facilitated team meetings and demonstrated key workflows to
               the client. I’m open to relocation.
