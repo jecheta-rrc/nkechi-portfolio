@@ -85,13 +85,14 @@ export default function Hero() {
             <div className="absolute top-1/2 left-[70%] size-72 -translate-1/2 rounded-full border border-yellow-100/20 sm:size-88" />
           </div>
           <div className="p-6 sm:p-8">
-            <p className="text-sm font-semibold text-yellow-300">RRC Polytech industry project</p>
+            <p className="text-sm font-semibold text-yellow-300">Software Developer · RRC Polytech Industry Project</p>
             <h2 className="mt-2 text-3xl leading-tight font-bold tracking-tight sm:text-4xl">
               {featuredProject.title}
             </h2>
             <p className="mt-3 text-neutral-300">
-              I improved document uploads and demonstrated the Citizens Check-In and
-              Volunteer workflows to the client.
+              I built clearer file selection and upload confirmation for emergency
+              reports and volunteer documents. I facilitated team meetings and
+              presented the Citizens Check-In and Volunteer workflows to MANFF.
             </p>
             <ul className="mt-5 flex flex-wrap gap-2 text-sm text-yellow-100" aria-label="Project technologies">
               {featuredProject.tech.slice(0, 3).map((technology) => (
