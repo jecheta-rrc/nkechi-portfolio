@@ -34,7 +34,6 @@ export const projects: Project[] = [
     longDescription:
       "I built ShelfSignal to help retailers turn weekly sales and stock counts into an order they can review before buying. The app compares a moving average with linear regression on historical sales, then uses the selected model to estimate demand. Retailers can adjust stock on hand, incoming deliveries, and extra coverage before exporting a reorder list.",
     tech: ["JavaScript", "Linear regression", "CSV", "Vercel"],
-    githubUrl: "https://github.com/jecheta-rrc/shelf-signal",
     liveUrl: "https://shelf-signal-zeta.vercel.app/",
     highlights: [
       "Flags products that may run out before the supplier can deliver.",
@@ -74,7 +73,6 @@ export const projects: Project[] = [
     longDescription:
       "Built a serverless inventory system using AWS Lambda, API Gateway, DynamoDB, and S3. Designed scalable NoSQL data models, implemented REST endpoints, tested with Postman, and automated deployments using GitHub Actions.",
     tech: ["AWS Lambda", "API Gateway", "DynamoDB", "S3", "GitHub Actions"],
-    githubUrl: "https://github.com/jecheta-rrc/CI-InventoryApp",
     highlights: [
       "Serverless architecture with DynamoDB modeling",
       "REST API endpoints tested with Postman",
@@ -88,7 +86,6 @@ export const projects: Project[] = [
     longDescription:
       "Built a modular Express API with TypeScript, role-based access control, JWT authentication, documentation, and automated tests. Designed endpoints for inventory and orders with secure patterns and clean architecture.",
     tech: ["Node.js", "Express", "TypeScript", "JWT", "Jest", "Firebase"],
-    githubUrl: "https://github.com/jecheta-rrc/Backend-Project",
     highlights: [
       "JWT auth + role-based authorization",
       "Automated testing with Jest",
