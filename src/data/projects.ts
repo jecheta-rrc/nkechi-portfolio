@@ -72,14 +72,14 @@ export const projects: Project[] = [
   {
     title: "Cloud-Based Inventory System",
     description:
-      "Designed and implemented a serverless inventory management system using AWS services.",
+      "A serverless AWS application for viewing and managing inventory records.",
     longDescription:
-      "Built a serverless inventory system using AWS Lambda, API Gateway, DynamoDB, and S3. Designed scalable NoSQL data models, implemented REST endpoints, tested with Postman, and automated deployments using GitHub Actions.",
+      "I built an inventory app with a static frontend hosted on Amazon S3 and a REST API exposed through Amazon API Gateway. Five AWS Lambda functions handled inventory operations, with DynamoDB storing the records. I verified API requests in Postman and used GitHub Actions to automate deployments.",
     tech: ["AWS Lambda", "API Gateway", "DynamoDB", "S3", "GitHub Actions"],
     highlights: [
-      "Serverless architecture with DynamoDB modeling",
-      "REST API endpoints tested with Postman",
-      "CI/CD automation with GitHub Actions",
+      "Connected the S3-hosted interface to Lambda functions through API Gateway.",
+      "Designed the DynamoDB data model and tested the inventory endpoints with Postman.",
+      "Automated deployments with GitHub Actions.",
     ],
   },
   {
