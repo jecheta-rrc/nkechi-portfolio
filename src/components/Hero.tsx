@@ -17,8 +17,9 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-neutral-300">
-            I build full-stack applications, from the screens people use to the
-            APIs and databases behind them.
+            I build full-stack web applications with React, TypeScript, and Node.js.
+            My recent work includes emergency reporting and volunteer onboarding
+            for a First Nations client project.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
