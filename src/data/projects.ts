@@ -19,6 +19,9 @@ export const projects: Project[] = [
       "As a primary developer, I built and refined full-stack features, fixed bugs, and improved how users attach files to emergency reports and submit volunteer documents. I added confirmation after successful uploads and wrote TypeScript component documentation and sections of the developer setup guide. I also facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
     tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI"],
     highlights: [
+      "Improved image uploads for emergency reports.",
+      "Added email notifications to support emergency management workflows.",
+      "Added geolocation markers to display locations on the interactive map.",
       "Standardized file selection controls for emergency reports and volunteer documents, including criminal record checks and driver’s licences.",
       "Added visible confirmation when a file uploaded successfully.",
       "Wrote TypeScript component documentation and sections of the developer setup guide.",
