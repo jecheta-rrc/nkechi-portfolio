@@ -58,14 +58,15 @@ export const projects: Project[] = [
   {
     title: "Event Management Platform",
     description:
-      "Full-stack team project for managing event services with signed-in access.",
+      "A full-stack team project where signed-in users can add, view, and manage their own event services.",
     longDescription:
-      "I worked on the Express and Prisma backend and connected the React interface to authenticated service endpoints.",
+      "On Team Ace Stack, I worked on the Express and Prisma backend and connected the React interface to the authenticated API. I scoped service queries to the signed-in user and fixed a mismatch between the API response and the data the React list expected. After the fix, newly created services appeared in the interface.",
     tech: ["React", "Express", "PostgreSQL", "Prisma", "Clerk"],
     githubUrl: "https://github.com/Cusiokhale/Event-Management",
     highlights: [
-      "Scoped service queries to the signed-in user.",
-      "Fixed the service list so newly added services appeared in the interface.",
+      "Connected the React service interface to protected Express endpoints using Clerk authentication.",
+      "Scoped Prisma queries to the signed-in user so each person sees their own services.",
+      "Fixed the API-to-UI data mapping so newly added services appeared in the list.",
     ],
   },
   {
