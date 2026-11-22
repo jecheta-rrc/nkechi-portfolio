@@ -53,10 +53,11 @@ export default function Home() {
               </div>
 
               <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
-                <h3 className="text-xl font-semibold mb-2">Canada Life Award · 2026</h3>
+                <h3 className="text-xl font-semibold mb-2">Canada Life Award · RRC Polytech · June 2026</h3>
                   <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
-                    Received the Canada Life Award through RRC Polytech’s Applied Computer
-                    Education Awards.
+                    Recognized as an outstanding student in the Application Development and
+                    Delivery program and received the Canada Life Award at RRC Polytech’s
+                    Applied Computer Education Awards Reception.
                   </p>
               </div>
             </div>
