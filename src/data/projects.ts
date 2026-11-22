@@ -58,9 +58,9 @@ export const projects: Project[] = [
   {
     title: "Shepherd",
     description:
-      "A generative AI prototype that turns hospital discharge summaries into plain-language explanations for patients and concise highlights for clinicians.",
+      "A hackathon prototype that turns hospital discharge summaries into plain-language explanations for patients and concise briefs for clinicians.",
     longDescription:
-      "My team built and presented Shepherd in one day for the Healthcare 2 challenge at the 2026 AccelR8 Prairie AI Hackathon. We started with a practical problem: the same discharge document needs to be understandable to patients and easy for clinicians to scan. Shepherd generates both versions from a single document, then flags claims it cannot trace back to the source for review. We demonstrated the workflow with synthetic documents.",
+      "My team built and presented Shepherd in one day for the Healthcare 2 challenge at the 2026 AccelR8 Prairie AI Hackathon. We used the same discharge document to generate two summaries, one to help patients understand the information and one to help clinicians scan key details. The prototype flagged claims it couldn’t trace to the source for human review. We demonstrated it using synthetic documents.",
     tech: ["Generative AI", "Document summarization", "Source grounding"],
     githubUrl: "https://github.com/gbevwunu/Shepherd",
     highlights: [
