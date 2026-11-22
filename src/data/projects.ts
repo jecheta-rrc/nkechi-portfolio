@@ -86,6 +86,7 @@ export const projects: Project[] = [
     longDescription:
       "Built a modular Express API with TypeScript, role-based access control, JWT authentication, documentation, and automated tests. Designed endpoints for inventory and orders with secure patterns and clean architecture.",
     tech: ["Node.js", "Express", "TypeScript", "JWT", "Jest", "Firebase"],
+    githubUrl: "https://github.com/jecheta-rrc/Backend-Project",
     highlights: [
       "JWT auth + role-based authorization",
       "Automated testing with Jest",
