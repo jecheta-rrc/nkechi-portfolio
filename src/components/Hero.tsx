@@ -75,15 +75,15 @@ export default function Hero() {
           </div>
         </div>
 
-        <article className="relative isolate overflow-hidden rounded-[2rem] border border-yellow-200/20 bg-[#151107] shadow-[0_14px_45px_-22px_#facc1540]">
+        <article className="relative isolate overflow-hidden rounded-[2rem] border border-yellow-200/20 bg-[#0c0b08] shadow-[0_10px_30px_-20px_#facc151a]">
           <div
             aria-hidden="true"
-            className="relative h-40 overflow-hidden border-b border-yellow-200/15 bg-[radial-gradient(ellipse_at_72%_35%,#725318_0%,#352707_45%,#161105_85%)] sm:h-52"
+            className="relative h-40 overflow-hidden border-b border-yellow-200/15 bg-[radial-gradient(ellipse_at_72%_35%,#3a2b10_0%,#1d1609_45%,#0e0d09_85%)] sm:h-52"
           >
-            <div className="absolute inset-0 opacity-25 [background-image:linear-gradient(to_right,#d8a94a66_1px,transparent_1px),linear-gradient(to_bottom,#d8a94a66_1px,transparent_1px)] [background-size:28px_28px]" />
-            <div className="absolute top-1/2 left-[70%] size-32 -translate-1/2 rounded-full border border-yellow-100/70 bg-yellow-400/10 shadow-[0_0_35px_#e8ab3966] sm:size-40" />
-            <div className="absolute top-1/2 left-[70%] size-52 -translate-1/2 rounded-full border border-yellow-100/35 sm:size-64" />
-            <div className="absolute top-1/2 left-[70%] size-72 -translate-1/2 rounded-full border border-yellow-100/20 sm:size-88" />
+            <div className="absolute inset-0 opacity-15 [background-image:linear-gradient(to_right,#d8a94a66_1px,transparent_1px),linear-gradient(to_bottom,#d8a94a66_1px,transparent_1px)] [background-size:28px_28px]" />
+            <div className="absolute top-1/2 left-[70%] size-32 -translate-1/2 rounded-full border border-yellow-100/35 bg-yellow-400/5 shadow-[0_0_24px_#e8ab3926] sm:size-40" />
+            <div className="absolute top-1/2 left-[70%] size-52 -translate-1/2 rounded-full border border-yellow-100/20 sm:size-64" />
+            <div className="absolute top-1/2 left-[70%] size-72 -translate-1/2 rounded-full border border-yellow-100/10 sm:size-88" />
           </div>
           <div className="p-6 sm:p-8">
             <p className="text-sm font-semibold text-yellow-300">Software Developer · RRC Polytech Industry Project</p>
