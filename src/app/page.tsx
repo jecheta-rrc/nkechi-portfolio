@@ -28,7 +28,7 @@ export default function Home() {
 
             <div className="grid gap-6 md:grid-cols-2">
 
-              <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
+              <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition md:col-span-2">
                 <h3 className="text-xl font-semibold mb-2">Canada Life Award · RRC Polytech · June 2026</h3>
                   <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
                     Received the Canada Life Award at RRC Polytech’s Applied Computer Education Awards in June 2026.
