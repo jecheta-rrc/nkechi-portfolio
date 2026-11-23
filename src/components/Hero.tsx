@@ -91,9 +91,9 @@ export default function Hero() {
               {featuredProject.title}
             </h2>
             <p className="mt-3 text-neutral-300">
-              As a primary developer, I built and refined full-stack features
-              for emergency reporting and volunteer onboarding. I fixed bugs,
-              wrote developer documentation, and demonstrated the Citizens
+              As a primary developer, I built features for emergency reporting
+              and volunteer onboarding, refactored TypeScript components, and
+              wrote developer documentation. I demonstrated the Citizens
               Check-In and Volunteer workflows to MANFF.
             </p>
             <ul className="mt-5 flex flex-wrap gap-2 text-sm text-yellow-100" aria-label="Project technologies">

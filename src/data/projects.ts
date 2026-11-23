@@ -16,7 +16,7 @@ export const projects: Project[] = [
     description:
       "RRC Polytech industry project supporting emergency reporting, citizen check-in, and volunteer coordination for First Nations communities.",
     longDescription:
-      "As a primary developer, I built and refined full-stack features, fixed bugs, and improved how users attach files to emergency reports and submit volunteer documents. I added confirmation after successful uploads and wrote TypeScript component documentation and sections of the developer setup guide. I also facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
+      "As a primary developer, I built and refined full-stack features, fixed bugs, and improved how users attach files to emergency reports and submit volunteer documents. I added confirmation after successful uploads, wrote and refactored TypeScript components, and added TSDoc and setup instructions. I also facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
     tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI"],
     highlights: [
       "Improved image uploads for emergency reports.",
@@ -24,7 +24,8 @@ export const projects: Project[] = [
       "Added geolocation markers to display locations on the interactive map.",
       "Standardized file selection controls for emergency reports and volunteer documents, including criminal record checks and driver’s licences.",
       "Added visible confirmation when a file uploaded successfully.",
-      "Wrote TypeScript component documentation and sections of the developer setup guide.",
+      "Wrote and refactored TypeScript components and removed redundant comments.",
+      "Added TSDoc and contributed to the developer setup guide.",
     ],
   },
   {
