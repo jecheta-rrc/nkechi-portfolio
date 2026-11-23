@@ -8,6 +8,7 @@ export type Project = {
   githubUrl?: string;
   liveUrl?: string;
   highlights: string[];
+  caseStudy?: { heading: string; text: string }[];
 };
 
 export const projects: Project[] = [
@@ -18,6 +19,20 @@ export const projects: Project[] = [
     longDescription:
       "As a primary developer, I built and refined full-stack features, fixed bugs, and improved how users attach files to emergency reports and submit volunteer documents. I added confirmation after successful uploads, wrote and refactored TypeScript components, and added TSDoc and setup instructions. I also facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
     tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI"],
+    caseStudy: [
+      {
+        heading: "The problem",
+        text: "Emergency reports and volunteer onboarding collect different files, including report images, criminal record checks, and driver’s licences. The file controls varied across those forms.",
+      },
+      {
+        heading: "What I changed",
+        text: "I standardized the file-selection controls and added visible confirmation after a successful upload. I wrote and refactored TypeScript components, cleaned up redundant comments, and added TSDoc and developer setup notes.",
+      },
+      {
+        heading: "The result",
+        text: "Users now get consistent file controls and can see when an upload succeeds. I demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
+      },
+    ],
     highlights: [
       "Improved image uploads for emergency reports.",
       "Added email notifications to support emergency management workflows.",

@@ -114,6 +114,20 @@ export default function Projects() {
                 </div>
               </div>
 
+              {active.caseStudy && (
+                <section className="mt-6 rounded-2xl border border-white/10 p-4">
+                  <h4 className="font-semibold text-white">Case study · File uploads</h4>
+                  <dl className="mt-3 space-y-3 text-sm leading-relaxed">
+                    {active.caseStudy.map(({ heading, text }) => (
+                      <div key={heading}>
+                        <dt className="font-semibold text-neutral-200">{heading}</dt>
+                        <dd className="mt-1 text-neutral-300">{text}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </section>
+              )}
+
               <div className="mt-6">
                 <p className="text-sm font-semibold text-neutral-200">
                   Highlights
