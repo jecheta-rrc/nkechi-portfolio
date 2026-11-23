@@ -85,6 +85,13 @@ export default function Home() {
               with MANFF, I also facilitated team meetings and demonstrated key workflows to
               the client. I’m open to relocation.
             </p>
+
+            <p className="mt-4 text-neutral-400 text-lg leading-relaxed max-w-3xl">
+              I also work on data, AI, and automation projects. I evaluated a pump
+              leakage classifier for Pumpwatch, compared demand forecasts in
+              ShelfSignal, and built AI agent workflows with n8n during RRC
+              Polytech’s summer bootcamp.
+            </p>
           </div>
         </section>
 
