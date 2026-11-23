@@ -52,6 +52,14 @@ export default function Home() {
               </div>
 
               <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
+                <h3 className="text-xl font-semibold mb-2">RRC Polytech Summer Bootcamp · 2026</h3>
+                <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+                  Completed hands-on training in data science, AI agents, and analytics
+                  with Microsoft Fabric.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
                 <h3 className="text-xl font-semibold mb-2">WIPO Summer School on Intellectual Property</h3>
                 <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
                   Completed international program focused on intellectual property,
