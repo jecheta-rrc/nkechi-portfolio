@@ -75,7 +75,7 @@ export default function Projects() {
             <motion.div
               role="dialog"
               aria-modal="true"
-              className="relative max-h-[calc(100dvh-2rem)] w-full max-w-2xl overflow-y-auto rounded-3xl border border-white/10 bg-black/90 p-6 md:p-8 shadow-2xl backdrop-blur-xl"
+              className="relative max-h-[calc(100dvh-2rem)] w-full max-w-2xl overflow-y-auto [color-scheme:dark] rounded-3xl border border-white/10 bg-black/90 p-6 md:p-8 shadow-2xl backdrop-blur-xl"
               initial={{ y: 20, opacity: 0, scale: 0.98 }}
               animate={{ y: 0, opacity: 1, scale: 1 }}
               exit={{ y: 20, opacity: 0, scale: 0.98 }}
@@ -98,9 +98,11 @@ export default function Projects() {
               </div>
 
               <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.03] p-4">
-                <p className="text-neutral-300 leading-relaxed">
-                  {active.longDescription}
-                </p>
+                <div className="space-y-3 text-neutral-300 leading-relaxed">
+                  {active.longDescription.split("\n\n").map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </div>
 
                 <div className="mt-4 flex flex-wrap gap-2">
                   {active.tech.map((t) => (
