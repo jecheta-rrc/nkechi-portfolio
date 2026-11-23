@@ -17,8 +17,8 @@ export const projects: Project[] = [
     description:
       "RRC Polytech industry project supporting emergency reporting, citizen check-in, and volunteer coordination for First Nations communities.",
     longDescription:
-      "As a primary developer, I built and refined full-stack features, fixed bugs, and improved how users attach files to emergency reports and submit volunteer documents. I added confirmation after successful uploads, wrote and refactored TypeScript components, and added TSDoc and setup instructions. I also facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
-    tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI"],
+      "As a primary developer, I built and refined full-stack features for emergency reporting and volunteer onboarding. I wrote and refactored TypeScript code, authored developer documentation for the full application, integrated and verified Novu email notifications, and worked on geolocation for the interactive map. I also facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
+    tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI", "Novu"],
     caseStudy: [
       {
         heading: "The problem",
@@ -26,21 +26,21 @@ export const projects: Project[] = [
       },
       {
         heading: "What I changed",
-        text: "I standardized the file-selection controls and added visible confirmation after a successful upload. I wrote and refactored TypeScript components, cleaned up redundant comments, and added TSDoc and developer setup notes.",
+        text: "I standardized the file-selection controls and added visible confirmation after a successful upload.",
       },
       {
         heading: "The result",
-        text: "Users now get consistent file controls and can see when an upload succeeds. I demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
+        text: "Users now get consistent file controls and can see when an upload succeeds.",
       },
     ],
     highlights: [
       "Improved image uploads for emergency reports.",
-      "Added email notifications to support emergency management workflows.",
+      "Configured Novu, integrated email notifications into the application, and verified that the notifications worked.",
       "Added geolocation markers to display locations on the interactive map.",
       "Standardized file selection controls for emergency reports and volunteer documents, including criminal record checks and driver’s licences.",
       "Added visible confirmation when a file uploaded successfully.",
       "Wrote and refactored TypeScript components and removed redundant comments.",
-      "Added TSDoc and contributed to the developer setup guide.",
+      "Authored developer documentation for the full application, including TSDoc and setup instructions.",
     ],
   },
   {

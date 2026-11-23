@@ -91,10 +91,10 @@ export default function Hero() {
               {featuredProject.title}
             </h2>
             <p className="mt-3 text-neutral-300">
-              As a primary developer, I built features for emergency reporting
-              and volunteer onboarding, refactored TypeScript components, and
-              wrote developer documentation. I demonstrated the Citizens
-              Check-In and Volunteer workflows to MANFF.
+              As a primary developer, I wrote and refactored TypeScript code,
+              authored documentation for the full application, and integrated
+              and verified Novu email notifications. I also worked on geolocation
+              and demonstrated key workflows to MANFF.
             </p>
             <ul className="mt-5 flex flex-wrap gap-2 text-sm text-yellow-100" aria-label="Project technologies">
               {featuredProject.tech.slice(0, 3).map((technology) => (
