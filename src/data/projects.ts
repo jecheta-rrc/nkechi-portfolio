@@ -17,7 +17,7 @@ export const projects: Project[] = [
     description:
       "RRC Polytech industry project supporting emergency reporting, citizen check-in, and volunteer coordination for First Nations communities.",
     longDescription:
-      "As a primary developer, I built and refined full-stack features for emergency reporting and volunteer onboarding. I wrote and refactored TypeScript code, authored developer documentation for the full application, integrated and verified Novu email notifications, and worked on geolocation for the interactive map. I also facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
+      "As a primary developer, I built and refined full-stack features for emergency reporting and volunteer onboarding. I fixed bugs, wrote and refactored TypeScript components, and improved how users attach files to emergency reports and submit volunteer documents. I standardized file-selection controls and added visible confirmation after successful uploads. I configured Novu, integrated email notifications into the application, and verified that they worked. I also worked on geolocation markers for the interactive map and authored developer documentation for the full application, including TSDoc and setup instructions. I facilitated team meetings and demonstrated the Citizens Check-In and Volunteer workflows to MANFF.",
     tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "DaisyUI", "Novu"],
     caseStudy: [
       {
