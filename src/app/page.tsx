@@ -54,8 +54,8 @@ export default function Home() {
               <div className="p-6 rounded-2xl border border-neutral-800 hover:border-yellow-500 transition">
                 <h3 className="text-xl font-semibold mb-2">RRC Polytech Summer Bootcamp · 2026</h3>
                 <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
-                  Completed hands-on training in data science, AI agents, and analytics
-                  with Microsoft Fabric.
+                  Built and tested AI agent workflows with n8n, explored machine learning in Google Colab,
+                  and worked with Microsoft Fabric, PySpark, and Power BI for data analysis and reporting.
                 </p>
               </div>
 
